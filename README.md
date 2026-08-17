@@ -39,6 +39,22 @@ streamlit run app.py
 
 Upload a few PDFs from the sidebar, wait for indexing, then ask away.
 
+## Try it with sample data
+
+A sample company handbook is included at `sample_data/employee_handbook.pdf`.
+Upload it, then ask:
+
+- *How many days of annual leave do full-time employees get?*
+- *What's the notice period after probation?*
+- *How much are travel meals reimbursed per day?*
+
+And to see the honesty guardrail in action, ask something the document
+doesn't cover — *"What's the parental leave policy?"* — it will say it can't
+find that instead of inventing an answer.
+
+> To add a screenshot, run the app with your API key and save the view to
+> `docs/screenshot.png` — the README will pick it up.
+
 ## How it works
 
 1. PDFs are split into overlapping chunks and embedded.
