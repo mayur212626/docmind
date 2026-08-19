@@ -52,8 +52,7 @@ And to see the honesty guardrail in action, ask something the document
 doesn't cover — *"What's the parental leave policy?"* — it will say it can't
 find that instead of inventing an answer.
 
-> To add a screenshot, run the app with your API key and save the view to
-> `docs/screenshot.png` — the README will pick it up.
+![DocMind app](docs/screenshot.png)
 
 ## How it works
 
