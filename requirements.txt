@@ -1,8 +1,8 @@
-streamlit==1.38.0
-llama-index==0.11.10
-llama-index-vector-stores-chroma==0.2.0
-llama-index-embeddings-openai==0.2.4
-llama-index-llms-openai==0.2.7
-chromadb==0.5.5
-pypdf==4.3.1
-python-dotenv==1.0.1
+streamlit>=1.38
+llama-index>=0.14
+llama-index-vector-stores-chroma>=0.5
+llama-index-embeddings-openai>=0.6
+llama-index-llms-openai>=0.7
+chromadb>=0.5
+pypdf>=4
+python-dotenv>=1
